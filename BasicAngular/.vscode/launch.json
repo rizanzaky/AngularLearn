@@ -7,9 +7,17 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Debug Chrome",
+            "name": "Launch Chrome",
             "url": "http://localhost:4200",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach Chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 42000,
+            "url": "http://localhost/out",
+            "webRoot": "${workspaceFolder}/out"
         }
     ]
 }

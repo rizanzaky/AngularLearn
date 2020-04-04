@@ -7,5 +7,7 @@
         
         <p *ngIf="product.description">{{product.description}}</p>
         <p *ngIf="!product.description">N/A</p>
+
+        <button (click)="OnShareClicked(product)">Share</button>
     </li>
 </ul>
