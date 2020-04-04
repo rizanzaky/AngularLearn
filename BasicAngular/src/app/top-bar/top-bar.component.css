@@ -1,0 +1,15 @@
+.top-bar {
+    background-color: #1976d2;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 1px 10px 1px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: lighter;
+}
