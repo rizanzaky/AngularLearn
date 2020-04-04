@@ -21,4 +21,7 @@ export class ProductListComponent implements OnInit {
     window.alert("Shared " + product.name + " successfully!");
   }
 
+  OnNotifyClicked(): void {
+    window.alert("Notified!");
+  }
 }

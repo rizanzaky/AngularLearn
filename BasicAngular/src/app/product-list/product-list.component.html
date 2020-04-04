@@ -9,5 +9,8 @@
         <p *ngIf="!product.description">N/A</p>
 
         <button (click)="OnShareClicked(product)">Share</button>
+
+        <app-product-alert [product]="product"
+                           (notify)="OnNotifyClicked()"></app-product-alert>
     </li>
 </ul>
