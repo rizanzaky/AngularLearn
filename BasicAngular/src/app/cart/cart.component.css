@@ -1,0 +1,7 @@
+.cart-item {
+    background-color: lightcyan;
+}
+
+.cart-item > p {
+    display: inline;
+}
