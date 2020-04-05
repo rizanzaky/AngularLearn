@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  product = products[1];
+  product;
 
   constructor(private route: ActivatedRoute) { }
 
