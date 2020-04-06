@@ -1,0 +1,3 @@
+<div *ngFor="let shippingRate of shippingRates | async">
+    <p>{{shippingRate.type}} | ${{shippingRate.price}}</p>
+</div>
